@@ -81,7 +81,7 @@ img {
     border-radius: 16px;
     object-fit: cover;
 }
-.info{
+.block{
     max-width:1000px; 
     margin:0 auto;
     padding: 100px 48px;
@@ -114,3 +114,20 @@ h2{
     margin:0 auto;
 }
 
+.grey-container{
+    background-color: #e5e7eb;
+}
+
+.quote-text{
+    color:#1F2937;
+    font-size: 32px;
+    font-weight:200;
+    font-style:italic;
+    text-align: left;
+}
+.quote-author {
+    color:#1F2937;
+    font-size: 18px;
+    font-weight:800;
+    text-align: right;
+}
