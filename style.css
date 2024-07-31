@@ -13,7 +13,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding:16px 48px;
-    max-width:1200px;
+    max-width:900px;
     margin:0 auto;
 }
 .logo {
@@ -33,13 +33,49 @@ li{
     
 }
 a {
-    font-size:18px;
-    color:#E5E7EB;
     text-decoration: none;
 }
 
+.hero {
+    background-color: #1f2937;
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    gap:40px;
+    max-width:900px;
+    margin:0 auto;
+    padding:40px 0;
+}
+
+.hero-left{
+    max-width:400px;
+}
+h1{
+    font-size: 48px;
+    font-weight:800;
+    color:#F9FAf8;
+    margin-bottom:16px;
+}
+
+a,
+p{
+    font-size:18px;
+    color:#E5E7EB;  
+    margin-bottom:16px;
+}
+
+button{
+    background-color:#3882F6;
+    color:#F9FAf8;
+    font-size:18px;
+    font-weight:600;
+    border:0;
+    border-radius:10px ;
+    padding:8px 32px;
+}
 
 img {
-    width:300px;
+    width:400px;
     height:auto;
+    border-radius: 10px;
 }
