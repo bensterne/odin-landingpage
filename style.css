@@ -81,8 +81,35 @@ img {
     border-radius: 16px;
     object-fit: cover;
 }
+.info{
+    max-width:1000px; 
+    margin:0 auto;
+    padding: 100px 48px;
+    text-align: center;
+}
+h2{
+    font-size: 36px;
+    font-weight:800;
+    color:#1F2937;
+    margin-bottom: 50px;
+}
+.row{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    gap:20px;
+}
+.card p{
+    color:#7b8596;
+}
+
+.card{
+    width: 160px;
+    flex-shrink: 1; 
+}
 .image {
     height:140px;
     width:auto;
     border-radius: 0px;
 }
+
