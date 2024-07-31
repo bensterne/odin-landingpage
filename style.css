@@ -13,7 +13,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding:16px 48px;
-    max-width:900px;
+    max-width:1000px;
     margin:0 auto;
 }
 .logo {
@@ -42,13 +42,13 @@ a {
     align-items: center;
     justify-content:space-between;
     gap:40px;
-    max-width:900px;
+    max-width:1000px;
     margin:0 auto;
-    padding:40px 0;
+    padding: 100px 48px;
 }
 
 .hero-left{
-    max-width:400px;
+    flex:1;
 }
 h1{
     font-size: 48px;
@@ -73,9 +73,16 @@ button{
     border-radius:10px ;
     padding:8px 32px;
 }
-
+.img-wrapper{
+    flex:1
+}
 img {
-    width:400px;
-    height:auto;
-    border-radius: 10px;
+    width:100%;
+    border-radius: 16px;
+    object-fit: cover;
+}
+.image {
+    height:140px;
+    width:auto;
+    border-radius: 0px;
 }
