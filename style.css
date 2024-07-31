@@ -156,3 +156,8 @@ h3{
 .cta-left p{
     margin-top:10px;
 }
+
+.block.footer {
+    padding:36px 100px;
+    color:#F9FAf8;
+}
